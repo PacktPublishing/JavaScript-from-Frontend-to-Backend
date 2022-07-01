@@ -48,7 +48,7 @@ With the following software and hardware list you can run all code files present
 | -------- | ------------------------------------| -----------------------------------|
 | 1-9      | Vue.js                              | Windows, Mac OS, and Linux         |
 | 1-9      | Node.js                             | Windows, Mac OS, and Linux         |
-
+| 1-9      | JavaScript                          | Windows, Mac OS, and Linux         |
 
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://packt.link/xdibe).
