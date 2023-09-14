@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+  <title>Counter</title>
+</head>
+<body>
+<div id="app">First DIv</div>
+
+</body>
+
+<script>
+  const app = Vue.createApp({
+    template: `The counter is {{count}}`,
+    data() {
+      return {
+        count: 0
+      }
+    }
+  })
+  var vm = app.mount('div#app')
+
+  setInterval(() => {
+    vm.count += 1
+  },1000)
+
+</script>
+</html>
